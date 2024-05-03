@@ -21,6 +21,8 @@
 }
 
 .img {
+    display: block;
     height: var(--con-height);
     width: var(--con-size);
+    border-radius: 100%;
 }
