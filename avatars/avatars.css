@@ -1,0 +1,26 @@
+:root {
+  --con-size: 64px;
+  --con-height: 64px;
+}
+
+.button {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.main {
+  background-color: aqua;
+  display: block;
+  
+
+}
+
+.avatars-group1 {
+  background-color: red;
+}
+
+.img {
+    height: var(--con-height);
+    width: var(--con-size);
+}
