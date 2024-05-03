@@ -34,7 +34,7 @@
   float: left;
   margin: 10px;
 }
-.circle{
+.circle-wrap{
     /* border: 1px solid black; */
     width: 336px;
     height: 10px;
@@ -43,12 +43,22 @@
      
     
 }
-#circle {
+.circle {
 
     width : var(--con-size-circle);
     height : var(--con-height-circle);
     border-radius: 100%;
     background-color: #dbdbdb;
+    float: left;
+  margin: 33px;
+  }
+
+.circle2, .circle4, .circle5, .circle6 {
+
+    width : var(--con-size-circle);
+    height : var(--con-height-circle);
+    border-radius: 100%;
+    background-color:#4CFE88;
     float: left;
   margin: 33px;
   }
