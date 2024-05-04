@@ -1,0 +1,90 @@
+:root {
+  --con-size: 64px;
+  --con-height: 64px;
+  --con-size-circle: 18px;
+  --con-height-circle: 18px;
+}
+
+.button {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+.avatars-wrap {
+  background-color: snow;
+  width: 370px;
+  height: 180px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 110px 115px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.avatars-group1 {
+  order: 2;
+
+}
+.avatars-group2 {
+  order: 1;
+}
+.img {
+  height: var(--con-height);
+  width: var(--con-size);
+  border-radius: 100%;
+  margin: 10px;
+  /* justify-content: center; */
+  
+  
+}
+.circle-wrap1 {
+  /* border: 1px solid red; */
+  position: absolute;
+  display: flex;
+  justify-content:center;
+  margin: 54px 0 0;
+  transform: translate(-5%, -5%);
+  
+
+}
+.circle-wrap2 {
+  /* border: 1px solid blue; */
+  position: absolute;
+  display: flex;
+  justify-content:center;
+  margin: 54px 0 0;
+  transform: translate(-5%, -5%);
+
+}
+.circle {
+  width: var(--con-size-circle);
+  height: var(--con-height-circle);
+  border-radius: 100%;
+  background-color: #dbdbdb;
+  
+  margin-left: 74px;
+  
+}
+
+.circle2,
+.circle4,
+.circle5,
+.circle6 {
+  width: var(--con-size-circle);
+  height: var(--con-height-circle);
+  border-radius: 100%;
+  background-color: #4cfe88;
+  
+
+  }
