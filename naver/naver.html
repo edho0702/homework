@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./naver.css">
+    <title>naver</title>
+</head>
+
+<body>
+    <div class="warp">
+        <header class="header"><a href="/"><img class="logo" src="./icons/logo.svg" alt="naver"></a></header>
+        <div class="login-warp">
+            <form action="/" class="login-form">
+                <div class="id-pw-wrap">
+                    <div role="group" class="input-group">
+                        <input class="input" type="email" id="userEmail" required placeholder="아이디(이메일)"
+                            name="userEmail" />
+                    </div>
+                    <div role="group" class="input-group">
+                        <input class="input" type="password" id="userPwd" required placeholder="비밀번호" name="userPwd" />
+                    </div>
+                </div>
+                <div class="button-warp"><button type="button" class="login-button button"><span
+                            class="button-text">로그인</span></button></div>
+            </form>
+            <div class="login-checkbox-wrap">
+                <ul class="checkbox-group">
+                    <li class="keep">
+                        <input class="input-keep" type="checkbox" id="loginCheckbox">
+                        <label for="loginCheckbox" class="keep-text">로그인 상태유지</label>
+                    </li>
+                    <li class="ip">
+                        <a href="./ip-security.png" target="_blank" id="ipguide" title="IP보안"><span
+                                class="ip_text">IP보안</span></a>
+                        <input type="checkbox" id="ip-security" class="switch_checkbox" >
+                        <label class="ip-label" for="ip-security" role="checkbox"></label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

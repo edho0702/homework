@@ -1,0 +1,147 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 230px;
+  margin: 6.25rem 0 3.125rem 0;
+}
+
+.login-warp {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.input-group {
+  box-sizing: border-box;
+  margin: 0.625rem 1.25rem;
+  padding: 0;
+}
+
+.input {
+  box-sizing: border-box;
+  border: 1px solid #dadada;
+  background-color: #fff;
+  font-size: 14px;
+  height: 45px;
+  width: 100%;
+  padding: 0 1.25rem;
+}
+
+.button-warp {
+  padding: 0.625rem 1.25rem;
+}
+
+.login-button {
+  display: block;
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 45px;
+  width: 100%;
+  background-color: #03cf5d;
+  padding: 0 1.25rem;
+  border: none;
+}
+
+.button-text {
+  color: #fff;
+}
+
+.input-keep {
+  position: relative;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  background-image: url("/icons/unchecked.svg");
+}
+
+.input-keep:checked {
+  position: relative;
+  background-image: url("/icons/checked.svg");
+}
+
+.keep-text {
+  position: absolute;
+  margin-top: 0.25rem;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+}
+
+.switch_checkbox {
+  position: absolute;
+  appearance: none;
+  transform: scale(1.3);
+
+}
+
+.ip-label::after {
+  content: "off";
+  padding-right: 0.625rem;
+  font-size: 16px;
+  color: #181818;
+
+}
+
+.switch_checkbox:checked + .ip-label::after {
+  content: "on";
+  padding-right: 0.625rem;
+  font-size: 16px;
+  color: #03cf5d;
+}
+
+input:focus {
+  outline: 1px solid #03cf5d;
+  background-color: #e9f0fd;
+}
+
+button:focus {
+  outline: none;
+}
+
+.switch_checkbox:focus {
+  outline: 2px solid #181818;
+  background-color: transparent;
+  width: 25px;
+  height: 15px;
+  border-radius: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #181818;
+}
+
+@media (max-width: 768px) {
+  .checkbox-group {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+
+  .ip {
+    display: none;
+  }
+  .keep-text,
+  .ip-label::after {
+    white-space: nowrap;
+  }
+
+  .keep {
+    display: block;
+    margin-right: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-warp {
+    width: 500px;
+  }
+}
