@@ -17,6 +17,7 @@
 
 ## css
 ![화면 캡처 2024-05-18 230329](https://github.com/ldd0702/homework/assets/167842083/5b551f6b-9f8e-4c43-89f7-6cc785fd2c7b)
+   
 ![화면 캡처 2024-05-18 230356](https://github.com/ldd0702/homework/assets/167842083/eca7b777-fc85-4a69-85d8-8a68930220b4)
 
 ## 미디어쿼리
