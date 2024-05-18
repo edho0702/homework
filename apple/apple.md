@@ -26,6 +26,8 @@
 ## 그리드
 ![화면 캡처 2024-05-18 230503](https://github.com/ldd0702/homework/assets/167842083/c246c61f-bfd6-4847-906b-1870795eaf63)
 
-## 부끄러운 결과물
+## 부끄러운 결과물 
+### 1024px 이하
 ![화면 캡처 2024-05-18 225228](https://github.com/ldd0702/homework/assets/167842083/b33c9b3e-4f04-43c0-bb5b-436c28f7f21a)
+### 1024px 이상
 ![화면 캡처 2024-05-18 225245](https://github.com/ldd0702/homework/assets/167842083/64f1656b-443c-44bc-86cc-0e16b37e0567)
