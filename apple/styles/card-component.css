@@ -1,0 +1,56 @@
+.card-component {
+    margin-bottom: var(--line-normal);
+}
+.img-card {
+    position: relative;
+    width: 100%;
+    height: var(--size);
+}
+
+picture {
+
+    width: 100%;
+    inline-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--size);
+    overflow: hidden;
+    img {
+        max-width: 100%;
+    }
+}
+
+.text-overlay {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    
+
+    h2, li {
+        display: flex;
+        justify-content: center;
+    }
+    h2 {
+        
+        margin-bottom: var(--line-normal);
+    }
+        
+    .callout {
+        color: var(--gray);
+        margin: 10px auto;
+        font-size: var(--small-text);
+    }
+    .a-group {
+        text-align: center;
+        margin-top: 15px;
+       
+        a {
+            display: inline-block;
+            border-radius: 10000px;
+            
+        
+        }
+    }
+}

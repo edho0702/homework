@@ -1,0 +1,50 @@
+/* 320px 이상 640px 이하 */
+@media (max-width: 1024px) {
+   
+    .text-overlay {
+        h2 {
+            font-size: var(--large-text);
+        }
+        .card-text {
+            font-size: var(--base-text);
+        }
+        .a-group {
+            .price {
+                margin-left: var(--small-spacing);
+            }
+        }
+        .price {
+            margin-left: var(--small-spacing);
+        }
+        a {
+            font-size: var(--xx-small-text);
+            padding: var(--x-small-spacing);
+        }
+    }
+
+}
+@media (min-width: 1024px) {
+ 
+    .text-overlay {
+        h2 {
+            font-size: var(--extra-large-text);
+        }
+        .card-text {
+            font-size: var(--medium-text);
+        }
+        .a-group {
+            .price {
+                margin-top: var();
+                margin-left: var(--small-spacing);
+            }
+        }
+        a {
+            font-size: var(--x-small-text);
+            padding: var(--small-spacing);
+        }
+    }
+
+  
+
+}
+/* 640px 이상 디바이스 */

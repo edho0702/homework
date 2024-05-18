@@ -1,0 +1,77 @@
+@import url(base.css);
+@import url(reset.css);
+@import url(theme.css);
+@import url(card-component.css);
+@import url(media-query.css);
+@import url(gird.css);
+
+
+.ipad_pro-card,
+.iphone15_pro-card,
+.apple_watch-card,
+.airpods_pro-card {
+    background-color: black;
+    .text-overlay {
+        color: var(--white);
+    }
+    a {
+        background-color: var(--blue-400);
+        border: 2px solid var(--blue-400);
+    }
+    .price {
+        color: var(--blue-400);
+        background-color: transparent;
+    }
+}
+
+.ipad_air-card,
+.iphone15-card,
+.macbook_air-card {
+    background-color: var(--white);
+    a {
+        color: var(--white);
+        background-color: var(--black);
+        border: 2px solid var(--black);
+    }
+    .price {
+        color: var(--black);
+        background-color: transparent;
+    }
+}
+.ipad_pro-card {
+    .text-overlay {
+        transform: translate(-50%, -100%);
+    }
+}
+.ipad_air-card {
+    .text-overlay {
+        transform: translate(-50%, -100%);
+    }
+}
+.iphone15_pro-card {
+    .text-overlay {
+        transform: translate(-50%, -130%);
+    }
+}
+.iphone15-card {
+    .text-overlay {
+        transform: translate(-50%, -100%);
+    }
+}
+
+.apple_watch-card {
+    .text-overlay {
+        transform: translate(-50%, -140%);
+    }
+}
+.macbook_air-card {
+    .text-overlay {
+        transform: translate(-50%, -140%);
+    }
+}
+.airpods_pro-card {
+  .text-overlay {
+    transform: translate(-50%, -120%);
+}
+}
+
